@@ -26,7 +26,18 @@ dependency-reduced-pom.xml
 gradle-app.setting
 !gradle-wrapper.jar
 .gradletestnameproject
-build/
+
+# Python
+__pycache__/
+*.pyc
+logs/
+
+
+# Python 虚拟环境
+.venv/
+venv/
+env/
+
 /shelf/
 /.idea/workspace.xml
 # Markdown personal settings
